@@ -1,0 +1,29 @@
+@font-face {
+    font-family: "Sanomat Grab Web";
+    src: url("Sanomat Grab Web-Light.eot");
+    src: url("Sanomat Grab Web-Light.eot?#iefix") format("embedded-opentype"),
+        url("Sanomat Grab Web-Light.woff2") format("woff2"),
+        url("Sanomat Grab Web-Light.woff") format("woff");
+    font-weight: 0;
+    font-style: normal;
+    font-stretch: normal;
+}
+
+body {
+    background-color: rgb(245, 245, 245);
+    --grab-main-font-family: "Sanomat Grab Web", sans-serif;
+    color: rgb(22, 26, 29);
+}
+
+.medsos {
+    border-radius: 50%;
+    background-color: #363a45;
+    width: 20px;
+    height: 20px;
+    color: #fff;
+    float: left;
+    padding-left: 5px;
+    padding-top: 4px;
+    font-size: 12px;
+    margin-right: 5px;
+}
